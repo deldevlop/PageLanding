@@ -10,13 +10,10 @@ import Footer from "../../../src/js/component/Footer.jsx";
 //create your first component
 function Home() {
 	return (
- 		<div className="container">
-			<Navbar />
-			<Jumbotron />
-		</div>
-
 		<>
+			<Navbar />
 			<div className="container">
+				<Jumbotron />
 				<Card />
 			</div>
 			<Footer />
